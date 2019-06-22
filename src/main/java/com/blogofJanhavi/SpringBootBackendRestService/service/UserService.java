@@ -12,6 +12,7 @@ import java.util.Optional;
 
 @Service
 @Slf4j  // to solve login labels
+
 public class UserService {
 
     @Autowired
