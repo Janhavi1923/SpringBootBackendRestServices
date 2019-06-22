@@ -8,7 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @NoArgsConstructor
-@AllArgsConstructor
+//@AllArgsConstructor
 @ToString
 @Entity
 public class User {
@@ -19,6 +19,11 @@ public class User {
     private Long id;
     @Getter@Setter
     private String firstName, lastName;
+
+    public User(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
     /*public static void main(String[] args) {
         User u=new User(1L,"JAnhavi","Srivastava");
