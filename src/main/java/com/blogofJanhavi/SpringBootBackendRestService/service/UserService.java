@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-@Slf4j  // to solve login labels
+@Slf4j  // to solve logging labels
 
 public class UserService {
 
